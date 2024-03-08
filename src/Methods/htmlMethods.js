@@ -21,19 +21,11 @@ export function getFullHtml (css) {
       <body>
       ${div}
       <script>
-
-      var currentWidth = window.innerWidth;
-      var currentHeight = window.innerHeight;
-      var targetWidth =${bodyWidth};
-      var targetHeight = ${bodyHeight};
-
-      console.log(targetWidth / targetHeight);
-      console.log(currentWidth / currentHeight);
-      console.log(100 - (((currentWidth / currentHeight) / (targetWidth / targetHeight) * 100) - 100));
-      console.log((targetWidth / targetHeight) / (currentWidth / currentHeight) * 100)
-
+      let currentWidth = window.innerWidth;
+      let currentHeight = window.innerHeight;
+      let targetWidth =${bodyWidth};
+      let targetHeight = ${bodyHeight};
       document.documentElement.style.setProperty('--Width', (targetWidth / targetHeight) / (currentWidth / currentHeight) * 100 + 'vw');
-
       window.addEventListener('resize', e => {
          currentWidth = window.innerWidth;
          currentHeight =window.innerHeight;
