@@ -1,0 +1,25 @@
+{
+  "name": "Figma-Converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuntherAmassed/Figma-Converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuntherAmassed/Figma-Converter/issues"
+  },
+  "homepage": "https://github.com/GuntherAmassed/Figma-Converter#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-fetch": "^3.3.2"
+  }
+}
